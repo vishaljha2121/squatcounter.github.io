@@ -1,3 +1,8 @@
+html,
+body {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,8 +15,10 @@ video {
 canvas,
 h1 {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
+  height: 90%;
+  width: 90%;
   transform: translate(-50%, -50%);
 }
 
