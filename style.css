@@ -26,6 +26,17 @@ h1::before {
   content: var(--text-content);
   animation: text-animate 1s linear infinite;
 }
+
+p1 {
+  font-size: 40px;
+  color: black;
+}
+
+p2 {
+  font-size: 59px;
+  color: blue;
+}
+
 @keyframes text-animate {
   0% {
     --text-content: "Loading.";
